@@ -54,3 +54,40 @@ console.log(typeof myFunction);
 // or others it will be simple
 // for array => object
 // Functions are objects, but typeof treats them as a special case and thus return function
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory is of two types : Stack and Heap
+
+// stack memory is used for primitive datatype
+// heap => non- primitive
+
+// jab bhi stack use hota hain tab variable ki copy milti hain , aur heap ke case me reference milta hain  original variable ka 
+
+// STACK
+
+let myYoutubename="Ashishkumar"
+
+let anothername = myYoutubename // copy 
+anothername="abhishkpandey"
+
+console.log(myYoutubename);
+console.log(anothername);
+// original value mein change nahi aayega kyuki ki cope jayega anothername mein . 
+
+
+
+// HEAP
+
+let userOne ={
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne // reference
+
+userTwo.email="ashish@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
