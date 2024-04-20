@@ -20,7 +20,7 @@ let b = 145524n
 
 
 //  3)String =""
-// The String type is the set of all ordered sequences of zero or more 16-bit unsigned integer values (“elements”) up to a maximum length of 2*53 - 1 elements
+// The String type is the set of all ordered sequences of zero or more 16-bit unsigned integer values (“elements”) up to a maximum length of 2**53 - 1 elements(power=>**)
 
 
 // 4) boolean - true or false
