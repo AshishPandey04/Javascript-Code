@@ -11,16 +11,16 @@ let age= 21
 let isLoggedIn= false
 let state ; 
 let a=null
-let b = 123452123541312331333234244445524 
+let b = 145524n
 
 
 // detatypes in javascript
 //  1)number 
-//  2)bigint 
+//  2)bigint (add 'n' at last of number to make it bigint )
 
 
 //  3)String =""
-// The String type is the set of all ordered sequences of zero or more 16-bit unsigned integer values (“elements”) up to a maximum length of 2**53 - 1 elements
+// The String type is the set of all ordered sequences of zero or more 16-bit unsigned integer values (“elements”) up to a maximum length of 2*53 - 1 elements
 
 
 // 4) boolean - true or false
@@ -45,6 +45,6 @@ console.log(typeof undefined) // undefined
 console.log(typeof state)
 console.log(typeof a)
 console.log(typeof isLoggedIn)
-console.log(typeof b) // bigint also is a NUMBER type 
+console.log(typeof b) 
 
 
