@@ -8,11 +8,13 @@ console.log(`hello my name is ${name.toUpperCase()} and my repo count is ${repoC
 const gameName= new String('Ashish Kumar pandey')
 
 console.log(gameName[0]);
-// console.log(gameName[6]);
+console.log(gameName[6]);
 console.log(gameName[8]);
+console.log(typeof gameName);
 console.log(gameName.__proto__); // prototype {}=> object.
 console.log(gameName.length);
 console.log(gameName.toLocaleLowerCase());
+console.log(gameName.toLocaleUpperCase());
 console.log(gameName.charAt(11));
 console.log(gameName.indexOf('r'));
 
@@ -34,8 +36,10 @@ console.log(url.includes('ashish'));
 console.log(url.includes('abhi'));
 
 console.log(gameName.split(' ')) // split based on dash but it can be based on any value.
+console.log(gameName.split('h')) // split based on dash but it can be based on any value.
 let fruit = "mango"
 console.log(fruit.italics());
+console.log(fruit.bold());
 
 
 
