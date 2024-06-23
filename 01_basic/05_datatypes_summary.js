@@ -11,10 +11,10 @@ const id=Symbol('123')
 const id2 = Symbol('123')
 
 console.log(id === id2);
-// symbol having value still are different 
+// symbol having same value still are different 
 
 
-const bigNumber = 13123323234566664646664n
+const bigNumber = 131646664n
 // for BigInt just write n at last
 
 
@@ -38,6 +38,8 @@ let myObj= {
 const myFunction = function(){
     console.log("Hello World");
 }
+// console.log(myFunction())
+myFunction()
 
 
 // # to find or know datatypes 
