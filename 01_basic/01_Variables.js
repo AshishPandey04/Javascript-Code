@@ -24,6 +24,10 @@ In Javascript , a variable can be declared without using either of let , var or 
 but it is not a good practice .
 */
 
+
+// let and const: Variables declared with let and const inside the block are not accessible outside the block. This demonstrates block scope{}.
+// var: Variables declared with var inside a block are accessible outside the block if they are within the same function. This demonstrates function scope rather than block scope.
+
 const accountId = 1231
 // accountId = 2 // not allowed as it is const 
 console.log(accountId);
@@ -40,6 +44,10 @@ accountCity="delhi"
 accountState=1
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
+const Roll_number=2202017
+let Username="Ashish"
+console.table([Roll_number , Username])
 
 
 
