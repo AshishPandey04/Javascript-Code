@@ -25,4 +25,26 @@ const map=new Map()
 map.set('IN', "India")
 map.set('USA', "United State of America")
 map.set('IN', "India")// unique value hold karta hain map
-console.log(map);
+// console.log(map);
+
+
+for (const [key,value]  of map) {
+    console.log(key, ':-', value )
+    
+}
+
+
+const myObject = {
+    game1: 'NFS',
+    game2: 'PUBG'
+}
+
+// for (const [key, value] of myObject) {
+
+//     console.log(key , ':-', value);
+    
+// }
+
+// forof doesnot work for objects 
+
+
