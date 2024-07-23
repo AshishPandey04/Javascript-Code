@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // old  method to fetch api 
+    //XMLhttprequest
+    const requestUrl='https://api.github.com/users/AshishPandey04'
+
+  const xhr=new  XMLHttpRequest();
+  xhr.open('GET', requestUrl)
+xhr.onreadystatechange=function(){
+    console.log(xhr.readyState);
+    if(xhr.readyState===4){
+        const data=JSON.parse(this.responseText)
+        // parse convert string to given datatype here itis JSON.
+        // jab bhi reponse aata hain url se mostly string form  mein , sometimes object form mein
+        console.log(typeof data);
+
+        console.log(data.followers)
+    }
+
+}
+  xhr.send()
+
+  // homework 
+  // create a card using js and take profile photo an dfollower count andput it in card
+
+</script>
+</html>
