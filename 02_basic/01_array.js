@@ -51,3 +51,20 @@ const myn2=Arr2.splice(1,3)// here element of 3rd index is also included
 // ** splice remove the elements from the actual array, it manupuilates original array 
 console.log(myn2);
 console.log("C",Arr2);
+
+
+
+
+
+
+
+
+//The Array.prototype.filter() method in JavaScript is used to create a new array with all elements that pass a test implemented by the provided function. It does not modify the original array but returns a new array with the elements that satisfy the condition.
+
+// let newArray = array.filter(callback(element, index, array));
+
+
+
+
+// The Array.prototype.reduce() method in JavaScript is used to execute a reducer function on each element of the array, resulting in a single output value. This method is often used for summing values, finding averages, or combining elements into a single object or array.
+// let result = array.reduce(callback(accumulator, currentValue, index, array), initialValue);
